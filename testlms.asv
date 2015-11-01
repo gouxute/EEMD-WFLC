@@ -1,0 +1,17 @@
+
+N = 20;
+tsize = 50;
+w = zeros(2* 20,1);
+w0 = 1;
+
+x = zeros()
+
+
+for i = 1:tsize
+    for j = 1:
+    end
+    
+    
+    e = IMF(i) - w' * x;
+    w = w + 2 * u * e * x;
+end

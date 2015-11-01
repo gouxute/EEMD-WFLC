@@ -1,0 +1,7 @@
+function g = pd(x,dt)
+ [M,N] = size(x);
+ 
+ 
+ 
+
+end

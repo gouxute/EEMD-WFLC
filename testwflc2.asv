@@ -1,0 +1,11 @@
+
+clear;
+t = 1:5000;
+t1 = 1:50;
+or1 = t1 * 2;
+or2 = t1 ^2;
+
+
+function [x] = f(org,t)
+x = org(mod(t,length(org)));
+end

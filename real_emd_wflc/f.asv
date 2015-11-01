@@ -1,0 +1,4 @@
+function y = f(sig,x)
+
+y = sig(2,min(sig(1,:) - x));
+end
